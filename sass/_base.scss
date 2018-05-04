@@ -1,0 +1,13 @@
+.wrap{
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: $bg-color;
+}
+
+.clearfix{
+	clear: both;
+}
+
+*{
+	box-sizing: border-box;
+}

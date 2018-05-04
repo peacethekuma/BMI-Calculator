@@ -1,0 +1,181 @@
+.header {
+    width: 70%;
+    margin: 0 auto;
+    padding: 90px 0;
+    h1 {
+        @include hide-text;
+        display: block;
+        height: 150px;
+        width: 150px;
+        background-image: url(../img/BMICLogo.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+    }
+
+
+    .typeArea {
+        float: left;
+        margin-left: 80px;
+        color: $p-color;
+        line-height: 2em;
+        input {
+            color: $bg-color;
+            font-size: $size-m;
+            width: 250px;
+            height: 40px;
+            border-radius: 10px;
+            background: #fff;
+            border: 2px solid $p-color;
+            padding-left: 38px;
+            margin-bottom: 15px;
+            letter-spacing: 3px;
+        }
+    }
+    .btn {
+        float: left;
+        margin-left: 55px;
+        margin-top: 10px;
+        position: relative;
+        #send {
+            color: #424242;
+            font-size: 24px;
+            cursor: pointer;
+            display: block;
+            background-color: #FFD366;
+            height: 150px;
+            width: 150px;
+            padding-top: 66px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 50%;
+            letter-spacing: 5px;
+            h3{
+                font-size: 36px;
+                margin-top: 15px;
+            }
+        }
+        #send.fine {
+            border: 6px solid #86D73E;
+            background-color: $bg-color;
+            color: #86D73E;
+            padding-top: 24px;
+            font-size: 18px;
+            padding-left: 5px;
+        }
+        #send.underweight {
+            border: 6px solid $underweight;
+            background-color: $bg-color;
+            color: $underweight;
+            padding-top: 24px;
+            font-size: 18px;
+            padding-left: 5px;
+        }
+        #send.overweight {
+            border: 6px solid $overweight;
+            background-color: $bg-color;
+            color: $overweight;
+            padding-top: 24px;
+            font-size: 18px;
+            padding-left: 5px;
+        }
+        #send.s-overweight,
+        #send.m-overweight {
+            border: 6px solid $m-overweight;
+            background-color: $bg-color;
+            color: $m-overweight;
+            padding-top: 24px;
+            font-size: 18px;
+            padding-left: 5px;
+        }
+        #send.l-overweight {
+            border: 6px solid $l-overweight;
+            background-color: $bg-color;
+            color: $l-overweight;
+            padding-top: 24px;
+            font-size: 18px;
+            padding-left: 5px;
+        }
+        #back {
+            position: absolute;
+            right: 0;
+            bottom: 10px;
+            display: block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+        }
+        #back.fine {
+            background-color: #86D73E;
+            background-image: url(../img/icons_loop.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: -2px -1px 6px 5px #424242;
+        }
+
+        #back.underweight {
+            background-color: $underweight;
+            background-image: url(../img/icons_loop.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: -2px -1px 6px 5px #424242;
+        }
+        #back.overweight {
+            background-color: $overweight;
+            background-image: url(../img/icons_loop.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: -2px -1px 6px 5px #424242;
+        }
+        #back.s-overweight,
+        #back.m-overweight {
+            background-color: $m-overweight;
+            background-image: url(../img/icons_loop.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: -2px -1px 6px 5px #424242;
+        }
+        #back.l-overweight {
+            background-color: $l-overweight;
+            background-image: url(../img/icons_loop.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            box-shadow: -2px -1px 6px 5px #424242;
+        }
+        #back.fine:hover,
+        #back.underweight:hover,
+        #back.overweight:hover,
+        #back.s-overweight:hover,
+        #back.m-overweight:hover,
+        #back.l-overweight:hover {
+            background-color: $p-color;
+            box-shadow: -2px -1px 15px 5px #fff;
+        }
+
+        p {
+            display: block;
+            width: 200px;
+            position: absolute;
+            font-size: 32px;
+            top: 65px;
+            left: 165px;
+            letter-spacing: 3px;
+        }
+        p.fine {
+            color: #86D73E;
+        }
+        p.underweight {
+            color: $underweight;
+        }
+        p.overweight {
+            color: $overweight;
+        }
+        p.s-overweight,
+        p.m-overweight {
+            color: $m-overweight;
+        }
+        p.l-overweight {
+            color: $l-overweight;
+        }
+    }
+}

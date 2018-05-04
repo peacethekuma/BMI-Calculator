@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>BMI Calculator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="header">
+			<h1>BMI Calculator</h1>
+			<div class="typeArea">
+				身高 cm 	<br>	
+				<input  id="heightId" type="text" maxlength = "3" placeholder="請輸入您的身高"><br>
+				體重 kg<br>
+				<input id="weightId" type="text" maxlength = "3" placeholder="請輸入您的體重"><br>
+			</div>
+			<div class="btn">
+				<a href="#" id="send" class="">看結果
+				</a>
+				<a href="#" id="back" class="" ></a>
+				<p id="statusId" class=""> <p>
+			</div>
+			
+			<div class="clearfix"></div>
+		</div>
+		<div class="main">
+			<h2>BMI 紀錄</h2>
+			<ul id="recordList">
+				<li class="fine">
+					<h3>理想</h3>bmi
+					<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2017 <a href="#" class="deleteBtn">刪除</a>
+				</li>
+				<li class="underweight">
+					<h3>過輕</h3>bmi
+					<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2017
+				</li>
+				<li class="overweight">
+					<h3>過重</h3>bmi
+					<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2017
+				</li>
+				<li class="s-overweight">
+					<h3>輕度肥胖</h3>bmi
+					<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2017
+				</li>
+				<li class="m-overweight">
+					<h3>中度肥胖</h3>bmi
+					<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2017
+				</li>
+				<li class="l-overweight">
+					<h3>重度肥胖</h3>bmi
+					<span>20.90</span>weight<span>70kg</span>height<span>180cm</span>06-19-2017
+				</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<img src="img/BMICLogo-b.png" alt="BMIC-Logo">
+		</div>
+	</div>
+	<script src="js/all.js"></script>
+</body>
+</html>
